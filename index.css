@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #616971;
+  color: rgb(112, 112, 112);
   background-color: whitesmoke;
 }
 
@@ -45,13 +45,6 @@ body {
   height: auto;
 }
 
-/*CHANGE CAROUSEL TRANS SPEED (not needed)
-.carousel-item-next,
-.carousel-item-previous,
-.carousel-item.active {
-  transition: transform 1.25s ease;
-}*/
-
 /* CAROUSEL CONTENT */
 .carousel-caption {
   position: fixed;
@@ -88,6 +81,7 @@ body {
 }
 
 .headshot {
+  box-shadow: 0 8px 8px rgb(112, 112, 112);
   height: 300px;
   width: 300px;
 }
@@ -95,13 +89,14 @@ body {
 /* footer */
 footer {
   width: 100%;
-  border: 1px solid #616971;
+  border-top: 5px solid rgb(112, 112, 112);
+  padding-top: 15px;
 }
 
 #icon {
   padding-left: 20px;
   padding-right: 20px;
-  color: #616971;
+  color: rgb(112, 112, 112);
 }
 
 #icon:hover {
@@ -118,17 +113,10 @@ footer {
 @media (max-width: 767.98px) {
 }
 
-/* BOOTSTRAP BREAK PTS reminder :
+/* BOOTSTRAP break points reminder :
 XS (<576px) no media query/BS default
 S (576px=<) @media (min-width 576px) {...}
 M (768px=<) @media (min-width 768px) {...}
 LG (992px=<) @media (min-width 992px) {...}
 XL (1200px=<) @media (min-width 1200px) {...}
 */
-
-/* BS mobile gutter fix */
-.row,
-.container-fluid {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-}
