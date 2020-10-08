@@ -69,7 +69,15 @@ body {
 }
 
 .EFA:hover {
-  color: whitesmoke;
+  color: rgba(253, 183, 21, 1);
+}
+
+.AL {
+  color: rgba(41, 160, 54, 0.95);
+}
+
+.AL:hover {
+  color: rgba(253, 183, 21, 1);
 }
 
 .btn {
@@ -84,6 +92,13 @@ body {
   box-shadow: 0 8px 8px rgb(112, 112, 112);
   height: 300px;
   width: 300px;
+}
+
+.card {
+  filter: grayscale(100%);
+}
+.card:hover {
+  filter: none;
 }
 
 /* footer */
