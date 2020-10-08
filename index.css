@@ -1,0 +1,134 @@
+body {
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #616971;
+  background-color: whitesmoke;
+}
+
+/* NAVIGATION */
+
+.navbar-brand img {
+  height: 48px;
+}
+
+.navbar {
+  height: 75px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.nav-item {
+  padding: 8px;
+}
+
+.nav-link {
+  color: black !important;
+  background-color: rgba(245, 245, 245, 0.5);
+  padding: 0 20px 0 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: rgb(253, 183, 21) !important;
+}
+
+/* CAROUSEL */
+
+#carousel {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+.carousel-inner {
+  max-height: 800px !important;
+  height: auto;
+}
+
+/*CHANGE CAROUSEL TRANS SPEED (not needed)
+.carousel-item-next,
+.carousel-item-previous,
+.carousel-item.active {
+  transition: transform 1.25s ease;
+}*/
+
+/* CAROUSEL CONTENT */
+.carousel-caption {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bg-custom {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  border-radius: 15px;
+}
+.carousel-caption h1 {
+  text-shadow: 0 8px 8px rgba(0, 0, 0);
+}
+
+.border-primary {
+  border-top: 4px solid rgb(112, 112, 112) !important;
+}
+
+.EFA {
+  color: rgba(223, 61, 65, 0.95);
+}
+
+.EFA:hover {
+  color: whitesmoke;
+}
+
+.btn {
+  background-color: rgba(253, 183, 21, 0.8);
+}
+.btn:hover {
+  color: rgba(253, 183, 21, 1);
+  background-color: rgb(245, 245, 245, 0.5);
+}
+
+.headshot {
+  height: 300px;
+  width: 300px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  border: 1px solid #616971;
+}
+
+#icon {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #616971;
+}
+
+#icon:hover {
+  color: rgba(253, 183, 21, 1);
+}
+
+/* MEDIA QUERIES */
+
+/* DEVICES UNDER 1199px (xl) */
+@media (max-width: 1199.98px) {
+}
+
+/* DEVICES UNDER 768px (md) */
+@media (max-width: 767.98px) {
+}
+
+/* BOOTSTRAP BREAK PTS reminder :
+XS (<576px) no media query/BS default
+S (576px=<) @media (min-width 576px) {...}
+M (768px=<) @media (min-width 768px) {...}
+LG (992px=<) @media (min-width 992px) {...}
+XL (1200px=<) @media (min-width 1200px) {...}
+*/
+
+/* BS mobile gutter fix */
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
